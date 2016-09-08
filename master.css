@@ -1,0 +1,52 @@
+.btn {
+  background: #08090a;
+  background-image: -webkit-linear-gradient(top, #08090a, #2a91d1);
+  background-image: -moz-linear-gradient(top, #08090a, #2a91d1);
+  background-image: -ms-linear-gradient(top, #08090a, #2a91d1);
+  background-image: -o-linear-gradient(top, #08090a, #2a91d1);
+  background-image: linear-gradient(to bottom, #08090a, #2a91d1);
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  font-family: Courier New;
+  color: #e4f21b;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #2e262e 3px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #1892de;
+  background-image: -webkit-linear-gradient(top, #1892de, #3498db);
+  background-image: -moz-linear-gradient(top, #1892de, #3498db);
+  background-image: -ms-linear-gradient(top, #1892de, #3498db);
+  background-image: -o-linear-gradient(top, #1892de, #3498db);
+  background-image: linear-gradient(to bottom, #1892de, #3498db);
+  text-decoration: none;
+}
+#circulo{
+ width:300px;
+ height: 300px;
+ margin:auto;
+ margin-left:20px;
+ border-radius: 100%;
+
+}
+.sun{
+  background: url("");
+  border: 5px solid lightgray;
+}
+
+.luna{
+  background: url("http://img3.goodfon.su/wallpaper/big/1/6e/wow-world-of-warcraft-legion-1201.jpg");
+  border: 5px solid black;
+}
+
+.dia{
+  background-image: url("https://cdn0.vox-cdn.com/thumbor/ktaCpQ4mR3rDJFlchrSh169H1JI=/268x0:1462x672/1280x720/cdn0.vox-cdn.com/uploads/chorus_image/image/50093585/sunwell-1600x900.0.0.jpg")
+}
+.noche{
+  background-image: url("http://thenoob.net/wp-content/uploads/2014/08/world-of-warcraft-draenei-female-lying-down-alliance-1152x720.jpg")
+
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>dia y noche</title>
+<link rel="stylesheet" href="master.css" media="screen" title="no title">
+<script src="http://code.jquery.com/jquery-2.2.4.js" charset="utf-8"></script>
+</head>
+<body class="dia">
+
+
+<center>
+  <button class="btn" type="button" name="button">TOCAME</button>
+
+<div class="sun" id="circulo"></div>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+  $("button").on("click", function(){
+  if ($("#circulo").hasClass("sun")){
+    $("#circulo").removeClass("sun")
+    $("#circulo").addClass("luna")
+    $("body").removeClass("dia")
+    $("body").addClass("noche")
+  }else{
+   $("#circulo").removeClass("luna")
+   $("#circulo").addClass("sun")
+   $("body").removeClass("noche")
+   $("body").addClass("dia")
+    }
+  })
+})
+</script>
+
+</body>
+</html>
